@@ -21,7 +21,7 @@
                             title: "Username ว่าง!",
                             text: "กรุณากรอกข้อมูลให้ครบถ้วน",
                             showConfirmButton: false,
-                            timer: 3000
+                            timer: 500
                           }).then(function() {
                             window.location.href="login/loginad.php";
                         }); },500);
@@ -38,7 +38,7 @@
                         title: "Password ว่าง!",
                         text: "กรุณากรอกข้อมูลให้ครบถ้วน",
                         showConfirmButton: false,
-                        timer: 3000
+                        timer: 500
                       }).then(function() {
                         window.location.href="login/loginad.php";
                     }); },500);
@@ -64,7 +64,7 @@
                             title: "Username หรือ Passwords ผิด!",
                             text: "กรุณาตรวจสอบความถูกต้องใหม่อีกรอบ",
                             showConfirmButton: false,
-                            timer: 3000
+                            timer: 500
                           }).then(function() {
                             window.location.href="login/loginad.php";
                         }); },500);
@@ -81,7 +81,7 @@
                                 title: "เข้าสู่ระบบไม่สำเร็จ",
                                 text: "คุณได้ถูกแบนจากระบบ กรุณาติดต่อแอดมิน...",
                                 showConfirmButton: false,
-                                timer: 3000
+                                timer: 500
                               }).then(function() {
                                 window.location.href="login/loginad.php";
                             }); },500);
@@ -98,7 +98,7 @@
                                     title: "รอผู้ดูแลยืนยันบัญชีผู้ใช้",
                                     text: "กรุณาติดต่อผู้ดูแลศูนย์..",
                                     showConfirmButton: false,
-                                    timer: 3000
+                                    timer: 500
                                   }).then(function() {
                                     window.location.href="login/loginad.php";
                                 }); },500);
@@ -115,7 +115,7 @@
                                         title: "เว็ปไซต์ได้ปิดปรับปรุงชั่วคราว",
                                         text: "กรุณาเข้าสู่ระบบใหม่ภายหลัง หรือ ติดต่อแอดมิน",
                                         showConfirmButton: false,
-                                        timer: 3000
+                                        timer: 500
                                       }).then(function() {
                                         window.location.href="login/loginad.php";
                                     }); },500);
@@ -139,7 +139,7 @@
                                             title: "เข้าสู่ระบบสำเร็จ",  
                                             html:"กำลังพาคุณ <b>'.$mem_name.'</b> เข้าสู่ระบบ รอสักครู่...",
                                             showConfirmButton: false,
-                                            timer: 3000
+                                            timer: 500
                                           }).then(function() {
                                             window.location.href="account.php";
                                         }); },500);
@@ -162,7 +162,7 @@
                                     title: "เข้าสู่ระบบสำเร็จ",  
                                     html:"กำลังพาคุณ <b>'.$mem_name.'</b> เข้าสู่ระบบ รอสักครู่...",
                                     showConfirmButton: false,
-                                    timer: 3000
+                                    timer: 500
                                   }).then(function() {
                                     window.location.href="home.php";
                                 }); },500);
@@ -184,7 +184,7 @@
                                             title: "เข้าสู่ระบบสำเร็จ",  
                                             html:"กำลังพาคุณ <b>'.$mem_name.'</b> เข้าสู่ระบบ รอสักครู่...",
                                             showConfirmButton: false,
-                                            timer: 3000
+                                            timer: 500
                                           }).then(function() {
                                             window.location.href="home.php";
                                         }); },500);
@@ -207,7 +207,7 @@
                                             title: "เข้าสู่ระบบสำเร็จ",  
                                             html:"กำลังพาคุณ <b>'.$mem_name.'</b> เข้าสู่ระบบ รอสักครู่...",
                                             showConfirmButton: false,
-                                            timer: 3000
+                                            timer: 500
                                           }).then(function() {
                                             window.location.href="home.php";
                                         }); },500);
