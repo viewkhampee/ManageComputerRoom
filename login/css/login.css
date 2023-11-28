@@ -7,7 +7,8 @@
 body, html {
     
     background-repeat: no-repeat;
-    background-image: linear-gradient(90deg, rgba(179,179,179,1) 0%, rgba(179,179,179,1) 35%, rgba(179,179,179,1) 100%);;
+    background-image: linear-gradient(90deg, rgba(179,179,179,1) 0%, rgba(179,179,179,1) 35%, rgba(179,179,179,1) 100%);
+    background-color: #b3b3b3;
 }
 
 .card-container.card {
