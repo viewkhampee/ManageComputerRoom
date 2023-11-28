@@ -141,7 +141,7 @@
                                             showConfirmButton: false,
                                             timer: 3000
                                           }).then(function() {
-                                            window.location.href="account_student.php";
+                                            window.location.href="account.php";
                                         }); },500);
                                 </script>';
                                     }else{
