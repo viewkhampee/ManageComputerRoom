@@ -171,7 +171,7 @@
                         <th>ชื่อ</th>
                         <th>สถานะ</th>
                         <th>ปัญหา</th>
-                        <th>ปรับแต่ง</th>
+                        <th>เเก้ไข</th>
                         <th>ลบ</th>
                       </tr>
                     </thead>
@@ -195,7 +195,7 @@
                          <?php } ?>
                           <td><?php echo $comp['plobem']; ?></td>
                          
-                          <td><a href="cominroom_edit.php?id=<?php echo $comp['com_id']; ?>"><button type="button" class="btn btn-info"><b>ปรับแต่ง</b></button></a></td>
+                          <td><a href="cominroom_edit.php?id=<?php echo $comp['com_id']; ?>"><button type="button" class="btn btn-info"><b>เเก้ไข</b></button></a></td>
                           <td> <ul class="navbar-nav navbar-nav-right">
                          </br>
                          <li class="nav-item dropdown">
