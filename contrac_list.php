@@ -127,7 +127,7 @@
                           <th>ชื่อ-สกุล</th>
                           <th>เบอร์ติดต่อ</th>
                           <th>สถานะ</th>
-                          <th>ปรับแต่ง</th>
+                          <th>เเก้ไข</th>
                           <th>ลบ</th>
                         </tr>
                         
@@ -148,7 +148,7 @@
                             <td><label class="badge badge-warning"><b><i class="mdi mdi-alert-outline"></i> ไม่พร้อมใช้งาน</b></label></td>
                          <?php } ?>
                           
-                          <td><a href="con_edit.php?id=<?php echo $comp['id_con']; ?>"><button type="button" class="btn btn-info"><b>ปรับแต่ง</b></button></a></td>
+                          <td><a href="con_edit.php?id=<?php echo $comp['id_con']; ?>"><button type="button" class="btn btn-info"><b>เเก้ไข</b></button></a></td>
                           <td> <ul class="navbar-nav navbar-nav-right">
                          </br>
                          <li class="nav-item dropdown">

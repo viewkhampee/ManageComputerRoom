@@ -277,7 +277,7 @@
                           <th>สถานะ</th>
                           <th>ปัญหา</th>
                           <th>จำนวนคอมพิวเตอร์</th>
-                          <th>ปรับแต่ง</th>
+                          <th>เเก้ไข</th>
                           <th>ลบ</th>
                         </tr>
                         
@@ -307,7 +307,7 @@
                           <td><?php echo $comp['comp_plob']; ?></td>
                           <td>พร้อมใช้งาน <b class="text-danger"><?php echo $ready; ?></b>/<?php echo $numcop; ?> เครื่อง
                           <a href="comp_add.php?id=<?php echo $comp['Id_comp']; ?>"><b><i class="mdi mdi-pencil"></i> แก้ไข</b></a></td>
-                          <td><a href="comp_edit.php?id=<?php echo $comp['Id_comp']; ?>"><button type="button" class="btn btn-info"><b>ปรับแต่ง</b></button></a></td>
+                          <td><a href="comp_edit.php?id=<?php echo $comp['Id_comp']; ?>"><button type="button" class="btn btn-info"><b>เเก้ไข</b></button></a></td>
                           <td> <ul class="navbar-nav navbar-nav-right">
                          </br>
                          <li class="nav-item dropdown">
