@@ -129,7 +129,7 @@
                           <th>ชื่อ-สกุล</th>
                           <th>เบอร์โทรศัพท์</th>
                           <th>สถานะ</th>
-                          <th>ปรับแต่ง</th>
+                          <th>เเก้ไข</th>
                          
                           <th>ลบ</th>
                          
@@ -157,7 +157,7 @@
                           <td><label class="badge badge-danger text-white"><b><i class="mdi mdi-account-key"></i> อาจารย์</b></label></td>
                          <?php } ?>
                           
-                         <td><a href="acc_edit.php?id=<?php echo $bank['mem_user']; ?>&type=tech"><button type="button" class="btn btn-info"><b>ปรับแต่ง</b></button></a></td>
+                         <td><a href="acc_edit.php?id=<?php echo $bank['mem_user']; ?>&type=tech"><button type="button" class="btn btn-info"><b>เเก้ไข</b></button></a></td>
                          <td> <ul class="navbar-nav navbar-nav-right">
                          </br>
                          <li class="nav-item dropdown">
